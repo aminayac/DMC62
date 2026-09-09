@@ -4,6 +4,10 @@ st.title("Especializacion python for analytics")
 st.sidebar.title("Parámetros")
 st.write("Elaborado por: Anibal Minaya")
 
+st.image("Python_logo.png")
+
+st.sidebar.image("DMC.png")
+
 modulos = st.sidebar.selectbox("Seleccione el módulo",["Listas","Arreglos","Funciones","POO" ])
 
 if modulos == "Listas":
