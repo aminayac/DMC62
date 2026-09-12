@@ -28,21 +28,11 @@ elif modulos == "Arreglos":
   st.write(arreglo)
 
 elif modulos == "Funciones":
-  """
-    elif modulos == "Funciones":
-  st.write("Bienvenidos al modulo de funciones")
   
-  capital_i = st.number_input("Ingrese capital inicial", min_value = 0, max_value = 100000, value = 1000)
-  aporte_m = st.number_input("Ingrese el aporte mensual", min_value = 0, max_value = 10000, value = 100)
-  tasa_a = st.slider("Ingrese tasa anual", min_value = 0.01, max_value = 1.0, value = 0.05)
-  anios = st.slider("Ingrese tiempo", min_value = 1, max_value = 20, value = 2)
-  resultado_valor_futuro = lf.valor_futuro_inversion(capital_i,aporte_m,tasa_a,anios)
-  st.write("El resultado de tu valor futuro de inversion es: ",round(resultado_valor_futuro,2))
-  """
   st.write("Te encuentras en el módulo de funciones")
   
-  capital_i = st.number.input("Ingrese el capital inicial",min_value=0,max_value=10000,value=1000)
-  aporte_m = st.number.input("Ingrese el aporte mensual",min_value=0,max_value=10000,value=100)
+  capital_i = st.number_input("Ingrese el capital inicial", min_value=0 ,max_value = 10000, value = 1000)
+  aporte_m = st.number_input("Ingrese el aporte mensual",min_value=0,max_value=10000,value=100)
   tasa_a = st.slider("Ingrese la tasa",min_value=0.01,max_value=1.00,value=0.05)
   anios = st.slider("Ingrese la tasa",min_value=1,max_value=20,value=2)
 
